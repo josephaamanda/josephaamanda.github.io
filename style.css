@@ -3,7 +3,7 @@
 
 body {
 	background-color: hsl(0, 0%, 95%);
-	width: 1440px;
+	max-width: 1440px;
 }
 
 .container {
@@ -110,8 +110,8 @@ p, .learn {
 
 /*Mobile Design*/
 
-@media screen and (max-width: 375px) {
-	
+@media screen and (max-width: 500px) {
+
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
@@ -120,35 +120,33 @@ body {
 }
 
 .container {
-	background-color: hsla(0, 0%, 100%, 0.75);
+	background-color: hsl(0, 0%, 95%);
 	width: 300px;
 	height: 1500px;
-	margin: 50px auto;
-	position: relative;
+	margin-top: 20px auto;
 }
 
 .sedans {
 	background-color: hsl(31, 77%, 52%);
 	height: 500px;
 	width: 300px;
-	display: block;
-	position: absolute;
+	margin-top: 20px auto;
 }
 
 .suvs {
 	background-color: hsl(184, 100%, 22%);
 	height: 500px;
 	width: 300px;
-	display: block;
-	position: absolute;
+	margin-left: 0;
+	margin-top: 500px;
 }
 
 .luxury {
 	background-color: hsl(179, 100%, 13%);
 	height: 500px;
 	width: 300px;
-	display: block;
-	position: absolute;
+	margin-left: 0;
+	margin-top: 1000px;
 }
 
 img {
