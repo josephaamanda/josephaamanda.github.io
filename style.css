@@ -130,18 +130,21 @@ body {
 	background-color: hsl(31, 77%, 52%);
 	height: 500px;
 	width: 300px;
+	display: block;
 }
 
 .suvs {
 	background-color: hsl(184, 100%, 22%);
 	height: 500px;
 	width: 300px;
+	display: block;
 }
 
 .luxury {
 	background-color: hsl(179, 100%, 13%);
 	height: 500px;
 	width: 300px;
+	display: block;
 }
 
 img {
